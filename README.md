@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by <kmarrero>.*
+*This project has been created as part of the 42 curriculum by kmarrero.*
 
 # NetPractice
 
@@ -76,24 +76,24 @@ level10.export
 
 This project covers the following networking fundamentals:
 
-- IPv4 addressing
-- Public and private IP addresses
-- Subnet masks
-- Network IDs and host IDs
-- CIDR notation
-- Default gateways
-- Routers
-- Switches
-- Local Area Networks (LAN)
-- Packet forwarding
-- Routing between networks
-- TCP/IP networking
-- OSI Model
-  - Physical Layer
-  - Data Link Layer
-  - Network Layer
-  - Transport Layer
-- Network troubleshooting and logical analysis
+| Concept | Description |
+|---------|-------------|
+| **TCP/IP Addressing** | Every device connected to a network requires a unique IP address to communicate. IPv4 addresses are 32-bit numbers typically written in dotted decimal notation (e.g., `192.168.1.10`). |
+| **Subnet Mask** | Defines which portion of an IP address identifies the network and which identifies the host. Devices must belong to the same subnet to communicate directly without a router. |
+| **CIDR Notation** | A compact way of representing subnet masks using a prefix length (e.g., `/24` instead of `255.255.255.0`). It indicates how many bits belong to the network portion of the address. |
+| **Network Address** | The first address of a subnet. It identifies the entire network and cannot be assigned to a host. |
+| **Broadcast Address** | The last address in a subnet. Packets sent to this address are delivered to every host on the local network. |
+| **Host Address** | Any valid IP address assigned to a device within a subnet. It must be unique inside that network. |
+| **Default Gateway** | The router interface that forwards packets to destinations outside the local network. Without a valid default gateway, communication is limited to the local subnet. |
+| **Router** | Device responsible for connecting different networks and forwarding packets according to routing information. Routers make communication between separate subnets possible. |
+| **Switch** | Device that connects devices within the same local network. It forwards Ethernet frames based on MAC addresses, allowing efficient communication between hosts. |
+| **OSI Model** | A conceptual networking model composed of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. NetPractice mainly focuses on Layers 2 and 3. |
+| **Layer 2 (Data Link)** | Responsible for local network communication using MAC addresses. Switches operate primarily at this layer. |
+| **Layer 3 (Network)** | Responsible for logical addressing and routing using IP addresses. Routers operate at this layer. |
+| **Local Area Network (LAN)** | A network where devices communicate directly without crossing a router, provided they belong to the same subnet. |
+| **Routing** | The process of selecting the correct path for packets to reach a destination network through one or more routers. |
+| **Packet Forwarding** | The action performed by routers to send packets from one interface to another based on the destination IP address. |
+| **Network Troubleshooting** | The process of identifying configuration errors such as incorrect IP addresses, subnet masks, gateways, or routing that prevent successful communication. |
 
 ---
 
@@ -128,27 +128,6 @@ This project covers the following networking fundamentals:
 ## Concepts Studied
 
 During this project the following networking concepts were studied:
-
-## Networking Concepts
-
-| Concept | Description |
-|---------|-------------|
-| **TCP/IP Addressing** | Every device connected to a network requires a unique IP address to communicate. IPv4 addresses are 32-bit numbers typically written in dotted decimal notation (e.g., `192.168.1.10`). |
-| **Subnet Mask** | Defines which portion of an IP address identifies the network and which identifies the host. Devices must belong to the same subnet to communicate directly without a router. |
-| **CIDR Notation** | A compact way of representing subnet masks using a prefix length (e.g., `/24` instead of `255.255.255.0`). It indicates how many bits belong to the network portion of the address. |
-| **Network Address** | The first address of a subnet. It identifies the entire network and cannot be assigned to a host. |
-| **Broadcast Address** | The last address in a subnet. Packets sent to this address are delivered to every host on the local network. |
-| **Host Address** | Any valid IP address assigned to a device within a subnet. It must be unique inside that network. |
-| **Default Gateway** | The router interface that forwards packets to destinations outside the local network. Without a valid default gateway, communication is limited to the local subnet. |
-| **Router** | A Layer 3 device responsible for connecting different networks and forwarding packets according to routing information. Routers make communication between separate subnets possible. |
-| **Switch** | A Layer 2 device that connects devices within the same local network. It forwards Ethernet frames based on MAC addresses, allowing efficient communication between hosts. |
-| **OSI Model** | A conceptual networking model composed of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. NetPractice mainly focuses on Layers 2 and 3. |
-| **Layer 2 (Data Link)** | Responsible for local network communication using MAC addresses. Switches operate primarily at this layer. |
-| **Layer 3 (Network)** | Responsible for logical addressing and routing using IP addresses. Routers operate at this layer. |
-| **Local Area Network (LAN)** | A network where devices communicate directly without crossing a router, provided they belong to the same subnet. |
-| **Routing** | The process of selecting the correct path for packets to reach a destination network through one or more routers. |
-| **Packet Forwarding** | The action performed by routers to send packets from one interface to another based on the destination IP address. |
-| **Network Troubleshooting** | The process of identifying configuration errors such as incorrect IP addresses, subnet masks, gateways, or routing that prevent successful communication. |
 
 ## AI Usage
 
