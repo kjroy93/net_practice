@@ -74,7 +74,7 @@ level10.export
 
 # Resources
 
-# Networking Concepts
+## Networking Concepts
 
 This project covers the following networking fundamentals:
 
@@ -90,8 +90,6 @@ This project covers the following networking fundamentals:
 | **Router** | Device responsible for connecting different networks and forwarding packets according to routing information. Routers make communication between separate subnets possible. |
 | **Switch** | Device that connects devices within the same local network. It forwards Ethernet frames based on MAC addresses, allowing efficient communication between hosts. |
 | **OSI Model** | A conceptual networking model composed of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. NetPractice mainly focuses on Layers 2 and 3. |
-| **Layer 2 (Data Link)** | Responsible for local network communication using MAC addresses. Switches operate primarily at this layer. |
-| **Layer 3 (Network)** | Responsible for logical addressing and routing using IP addresses. Routers operate at this layer. |
 | **Local Area Network (LAN)** | A network where devices communicate directly without crossing a router, provided they belong to the same subnet. |
 | **Routing** | The process of selecting the correct path for packets to reach a destination network through one or more routers. |
 | **Packet Forwarding** | The action performed by routers to send packets from one interface to another based on the destination IP address. |
@@ -131,7 +129,7 @@ The network configurations and solutions submitted for each level were completed
 
 ---
 
-# Skills Developed
+## Skills Developed
 
 - Logical problem solving
 - Network analysis
