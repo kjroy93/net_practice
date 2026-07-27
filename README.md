@@ -72,6 +72,8 @@ level10.export
 
 ---
 
+# Resources
+
 # Networking Concepts
 
 This project covers the following networking fundamentals:
@@ -94,22 +96,6 @@ This project covers the following networking fundamentals:
 | **Routing** | The process of selecting the correct path for packets to reach a destination network through one or more routers. |
 | **Packet Forwarding** | The action performed by routers to send packets from one interface to another based on the destination IP address. |
 | **Network Troubleshooting** | The process of identifying configuration errors such as incorrect IP addresses, subnet masks, gateways, or routing that prevent successful communication. |
-
----
-
-# Skills Developed
-
-- Logical problem solving
-- Network analysis
-- IPv4 subnetting
-- Basic routing concepts
-- Reading network diagrams
-- Understanding communication between hosts
-- Diagnosing network connectivity issues
-
----
-
-# Resources
 
 ## Official Documentation
 
@@ -138,12 +124,21 @@ Specifically, AI was used to:
 - Clarify networking concepts.
 - Explain subnetting and IP addressing.
 - Review theoretical questions.
-- Improve the project's documentation (README).
+- Improve the project's documentation.
+- https://www.youtube.com/@PowerCertAnimatedVideos
 
 The network configurations and solutions submitted for each level were completed manually after understanding the underlying networking concepts.
 
 ---
 
-# Author
+# Skills Developed
 
-**42 Login:** `<login>`
+- Logical problem solving
+- Network analysis
+- IPv4 subnetting
+- Basic routing concepts
+- Reading network diagrams
+- Understanding communication between hosts
+- Diagnosing network connectivity issues
+
+---
