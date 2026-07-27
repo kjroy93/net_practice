@@ -109,10 +109,6 @@ This project covers the following networking fundamentals:
 - MDN Web Docs – Networking
 - IBM Networking Documentation
 
-## Concepts Studied
-
-During this project the following networking concepts were studied:
-
 ## AI Usage
 
 Artificial Intelligence was used only as a learning aid.
